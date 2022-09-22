@@ -89,7 +89,7 @@ Miku.ev.on('groups.update', async pea => {
         //console.log(pea)
      // Get Profile Picture Group
         try {
-        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
+        ppgc = await Miku.profilePictureUrl(pea[1].id, 'image')
         } catch {
         ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
         }
